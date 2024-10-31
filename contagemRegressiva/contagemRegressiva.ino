@@ -3,7 +3,6 @@ Desenvolvedor: professor Danilo
 Ano: 2024
 Aplicação: aula da disciplina de robótica 8° ano
 */
-
 #define A 2
 #define B 3
 #define C 4
@@ -14,6 +13,7 @@ Aplicação: aula da disciplina de robótica 8° ano
 #define DP 9
 #define liga 1
 #define desliga 0
+#define tempo 100
 
 
 void setup()
@@ -142,26 +142,25 @@ void ponto(){
 void loop()
 {
   nove();  
-  delay(1000); 
+  delay(tempo); 
   oito();
-  delay(1000);
+  delay(tempo);
   sete();  
-  delay(1000); 
+  delay(tempo); 
   seis();
-  delay(1000);
+  delay(tempo);
   cinco();  
-  delay(1000); 
+  delay(tempo); 
   quatro();
-  delay(1000);
+  delay(tempo);
   tres();  
-  delay(1000); 
+  delay(tempo); 
   dois();
-  delay(1000);
+  delay(tempo);
   um();
-  delay(1000);
+  delay(tempo);
   zero();
-  delay(1000);
+  delay(tempo);
   ponto();
-  delay(1000);
-  
+  delay(tempo);
 }
